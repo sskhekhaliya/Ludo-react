@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Ludo Game in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Project Overview**
+This project is a simple Ludo game built using React. It allows 4 players to play the classic board game. The game follows the rules of traditional Ludo, with a few modifications.
+
+## Live Demo
+
+You can play the game live at [this link](https://eager-swanson-40c899.netlify.app/).
 
 ## Available Scripts
+**Getting Started**
 
-In the project directory, you can run:
+1. **Prerequisites:**
+   - Node.js and npm (or yarn) installed on your system. You can download them from [https://nodejs.org/en](https://nodejs.org/en).
 
-### `npm start`
+2. **Cloning the Repository:**
+   - Open your terminal and navigate to your desired project directory.
+   - Clone this repository using the following command:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+     ```bash
+     git clone [https://github.com/sskhekhaliya/Ludo-react.git](https://github.com/sskhekhaliya/Ludo-react.git)
+     ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Installation:**
+   - Navigate into the cloned directory:
 
-### `npm test`
+     ```bash
+     cd Ludo-react
+     ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   - Install the project's dependencies:
 
-### `npm run build`
+     ```bash
+     npm install (or yarn install)
+     ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Development Server:**
+   - Start the development server to run the game locally:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+     ```bash
+     npm start (or yarn start)
+     ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   - This will typically launch the game in your default web browser at `http://localhost:3000/`.
 
-### `npm run eject`
+## Rules of the Game
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- The token (goti) moves out from the house when the dice indicates 6.
+- Whenever a player gets a six, they get an additional chance.
+- Stops exist where tokens won't attack opponent's tokens, although these stops haven't been added yet.
+- The game can be played among 4 players.
+- The player who secures all 4 tokens by reaching the center (the win area) of the board wins the game.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## To Play the Game
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Click on the square dice to roll it.
+2. By default, the red player moves first.
+3. Click on the red token to move it according to the number indicated on the dice.
+4. If the dice indicates 1 or 6, the token can be taken out of the house.
+5. Unlock the dice by clicking on the tokens of the correct color.
+6. Turns move in a clockwise fashion starting from red.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**S. S. Khekhaliya**
 
-### Code Splitting
+* Website: [sskhekhaliya](https://www.sskhekhaliya.com)
+* Instagram: [@sskhekhaliya](https://www.instagram.com/sskhekhaliya)
+* GitHub: [@sskhekhaliya](https://www.github.com/sskhekhaliya)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Contributing**
 
-### Analyzing the Bundle Size
+We welcome contributions to this project! If you have improvements or bug fixes, feel free to create a pull request. Before making a pull request, please ensure that your code adheres to the project's coding style and formatting guidelines (if any).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**License**
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT).
