@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ludo-react/static/css/main.2377526b.css",
+    "main.js": "/Ludo-react/static/js/main.f44ad99e.js",
+    "static/media/roll.mp3": "/Ludo-react/static/media/roll.a4c196e58839debc59b8.mp3",
+    "static/media/background.jpg": "/Ludo-react/static/media/background.2367f34abcf6cd0fff92.jpg",
+    "index.html": "/Ludo-react/index.html",
+    "main.2377526b.css.map": "/Ludo-react/static/css/main.2377526b.css.map",
+    "main.f44ad99e.js.map": "/Ludo-react/static/js/main.f44ad99e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2377526b.css",
+    "static/js/main.f44ad99e.js"
+  ]
+}
