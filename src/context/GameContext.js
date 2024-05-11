@@ -10,7 +10,7 @@ export const useGameContext = () => useContext(GameContext);
 export const GameProvider = ({ children }) => {
 
   const diceNumberValue = useRef(0);
-  const defaultBoardSize = useRef(0.85);
+  const defaultBoardSize = useRef(0.8);
   const [diceDisabled, setDiceDisabled] = useState(false);
   const [currentPlayer, setCurrentPlayer] = useState('red');
   const [playerPositions, setPlayerPositions] = useState({
@@ -28,7 +28,7 @@ export const GameProvider = ({ children }) => {
   useEffect(() => {
     function handleResize() {
       const screenWidth = window.innerWidth;
-      let newBoardSize = 0.85;
+      let newBoardSize = 0.8;
 
       if (screenWidth < 1025 && screenWidth >= 768) {
         newBoardSize = 0.8;

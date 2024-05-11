@@ -89,6 +89,7 @@ const Settings = ({setBoardRotate }) => {
               zoom_out
             </span>
           </div>
+          <div className="vertical-line"></div>
           <div className="zoom-dice-btn">
             <span
               className="material-symbols-outlined icons"
@@ -107,6 +108,7 @@ const Settings = ({setBoardRotate }) => {
           </div>
           <span className="reset-btn" onClick={boardReset}><u>Reset all zoom setting.</u></span>
         </div>
+        <div className="vertical-line"></div>
         <div className="rotate-settings">
           <p>rotate</p>
           <div className="rotate-btn">

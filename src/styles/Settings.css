@@ -8,7 +8,8 @@
     backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.18);
     overflow: hidden;
-    font-size: smaller;
+    font-size: large;
+    flex-basis: 70%
 }
 
 #settings > div {
@@ -20,7 +21,7 @@
 }
 
 .zoom-settings, .rotate-settings {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .zoom-settings, .rotate-btn > p {
@@ -33,6 +34,7 @@
     text-transform: uppercase;
     display: flex;
     justify-content: space-around;
+    font-size: small;
 }
 
 .zoom-board-btn, .zoom-dice-btn {
@@ -49,7 +51,7 @@
 
 .reset-btn {
     cursor: pointer;
-    color:darkmagenta;
+    color:#c4c0eb;
     font-size: smaller;
     
 }
@@ -68,6 +70,10 @@
     justify-content: center
 }
 
+.vertical-line {
+    display: none;
+}
+
 @media screen and (max-width: 550px){
     .current-player-chance {
         display: none;
@@ -80,7 +86,7 @@
     }
     #settings{
         max-width: none;
-        flex-basis: 70%!important;
+        font-size: small;
     }
     #settings > div {
         display: flex;
@@ -103,7 +109,10 @@
 }
 
 @media screen and (width < 550px){
-    .zoom-settings > p{
+    #settings {
+        font-size: smaller;
+    }
+    .zoom-settings > p {
         margin-bottom: 5px;
     }
     .zoom-btn, .rotate-btn {
@@ -114,7 +123,7 @@
         margin: 0;
     }
     #second-container{
-        margin-bottom: 25px;
+        flex-direction: column-reverse;
         gap: 10px;
     }
     #second-container > #settings {
@@ -123,7 +132,7 @@
     }
     .game-settings {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .zoom-settings > p, .rotate-settings > p {
         text-align: center;
@@ -131,6 +140,11 @@
     .zoom-btn {
         display: flex;
         flex-direction: row;
+    }
+    .vertical-line {
+        display: block;
+        border-left: 1px solid #ffffff57;
+        height: auto;
     }
     
   }

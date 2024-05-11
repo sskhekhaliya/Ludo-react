@@ -23,15 +23,11 @@
   justify-content: space-around;
 }
 
-#second-container > div {
-  flex-basis: 50%;
-}
-
 .dice-container {
   width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-link {
@@ -61,7 +57,8 @@ hr {
 @media screen and (max-width: 768px) {
   .App {
     padding: 15px;
-    height: calc(100vh - 30px);
+    padding-top: 0;
+    height: calc(100vh - 70px);
     width: calc(100vw - 30px);
     grid-template-columns: 100%;
     gap: 20px /* Single column layout for mobile view */
