@@ -5,7 +5,7 @@ This project is a simple Ludo game built using React. It allows 4 players to pla
 
 ## Live Demo
 
-You can play the game live at [this link](https://eager-swanson-40c899.netlify.app/).
+You can play the game live at [this link](https://sskhekhaliya.github.io/Ludo-react/).
 
 ## Available Scripts
 **Getting Started**
